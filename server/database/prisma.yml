@@ -1,0 +1,14 @@
+endpoint: http://159.65.151.169:4466/gql/dev
+datamodel: 
+  - ./../components/auth/user.prisma
+  - ./../components/institutionClasses/InstitutionClass.prisma
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
+  - generator: graphql-schema
+    output: ./generated/prisma-graphql
+hooks:
+  post-deploy:
+    - prisma generate
+seed:
+  import: ./seed.graphql

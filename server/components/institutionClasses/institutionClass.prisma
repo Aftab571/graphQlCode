@@ -1,0 +1,4 @@
+type InstitutionClass {
+  id: ID! @id
+  name: String!
+}
