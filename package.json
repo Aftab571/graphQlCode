@@ -60,7 +60,7 @@
     "@types/lodash": "^4.14.108",
     "@types/node": "^8.10.13",
     "codelyzer": "^4.4.4",
-    "graphql-code-generator": "^0.15.2",
+    "graphql-code-generator": "^0.18.2",
     "graphql-codegen-apollo-angular-template": "^0.15.2",
     "graphql-codegen-fragment-matcher": "^0.15.2",
     "graphql-codegen-typescript-apollo-angular": "0.15.2",
